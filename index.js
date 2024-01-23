@@ -5,5 +5,7 @@ const inputs = document.querySelectorAll('input');
 formEl.addEventListener('submit',(ev)=>{
     ev.preventDefault();
 
-    resultEl.innerHTML= inputs[0]?.valueAsNumber + inputs[1]?.valueAsNumber;
+    resultEl.innerHTML= sum(inputs[0]?.valueAsNumber,inputs[1]?.valueAsNumber);
 })
+
+

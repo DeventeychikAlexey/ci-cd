@@ -6,12 +6,13 @@
 </head>
 <body style="display: flex; align-items: center">
     <form class="form" style="margin-right: 10px">
-        <input type="number">
+        <input min="0" value="0" required type="number">
         +
-        <input type="number">
+        <input min="0" value="0" required type="number">
         <button type="submit">=</button>
     </form>
-    <p id="result">_</p>
+    <p id="result">0</p>
+    <script src="utils.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
